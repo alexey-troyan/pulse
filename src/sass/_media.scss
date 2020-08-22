@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 98%;
+  }
+  .advantages {
+    &__item {
+      flex-basis: 32%;
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+    
+    
+  }
+
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    &__wrap {
+      margin: 0 auto;
+    }
+    &__item {
+      flex-basis: 95%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+      margin-bottom: 40px;
+    }
+    &__official {
+      margin-bottom: 30px;
+    }
+    &__contacts {
+      align-items: center;
+    }
+    &__phone {
+      margin-bottom: 20px;
+    }
+  }
+  .promo {
+    padding-bottom: 50px;
+    &__wrapper {
+      margin-top: 40px;
+    }
+    &__header {
+      display: inline-block;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    &__subheader {
+      font-size: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    &__icons {
+      width: 90%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .promo {
+    &__header {
+      text-align: center;
+    }
+    &__subheader {
+      text-align: center;
+    }
+    &__icons {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__icon {
+      margin-bottom: 20px;
+    }
+  }
+  .button {
+    &__main {
+      width: 250px;
+      font-size: 14px;
+    }
+  }
+}
