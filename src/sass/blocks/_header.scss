@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   &__logo {
     width: 250px;

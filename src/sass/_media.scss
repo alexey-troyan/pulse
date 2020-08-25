@@ -22,6 +22,15 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    justify-content: space-evenly;
+    &__contacts {
+      display: flex;
+      align-items: center;
+      flex-basis: 100%;
+      margin-top: 50px;
+    }
+  }
   .advantages {
     &__wrap {
       margin: 0 auto;
@@ -46,6 +55,7 @@
     }
     &__contacts {
       align-items: center;
+      margin-top: 0;
     }
     &__phone {
       margin-bottom: 20px;
