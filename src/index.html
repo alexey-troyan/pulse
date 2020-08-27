@@ -121,10 +121,10 @@
       </div>
       <!-- /.consultation__descr -->
 
-      <form action="#" method="POST" class="form consultation__form">
-        <input class="form__input-name" type="text" placeholder="Ваше имя">
-        <input class="form__input-tel" type="tel" name="" id="" placeholder="Ваш телефон">
-        <input class="form__input-email" type="email" name="" id="" placeholder="Ваш E-mail">
+      <form action="#" method="POST" class="form consultation__form feed-form">
+        <input class="form__input-name" type="text" name="name" placeholder="Ваше имя" required>
+        <input class="form__input-tel" type="number" name="phone" placeholder="Ваш телефон" required>
+        <input class="form__input-email" type="email" name="email" placeholder="Ваш E-mail" required>
         <button class="button form__button">заказать консультацию</button>
       </form>
       
@@ -132,6 +132,8 @@
     </div>
   </section>
 
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>

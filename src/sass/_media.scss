@@ -15,8 +15,17 @@
     &__wrapper {
       align-items: center;
     }
-    
-    
+  }
+  .consultation {
+    &__title {
+      text-align: center;
+    }
+    &__descr {
+      text-align: center;
+    }
+    &__form {
+      margin: auto;
+    }
   }
 
 }
@@ -79,6 +88,23 @@
     &__icons {
       width: 90%;
       margin-bottom: 30px;
+    }
+  }
+
+  .consultation {
+    padding: 50px 0;
+    &__title {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    &__descr {
+      font-size: 18px;
+      padding: 0 10px;
+    }
+
+    &__form {
+      margin: auto;
     }
   }
 }
